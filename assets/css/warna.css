@@ -1,0 +1,25 @@
+:root {
+    --first-color: hsl(45, 98%, 60%);
+    --body-color: hsl(45, 0%, 100%);
+    --text-color: hsl(280, 4%, 25%);
+    --title-color: hsl(45, 4%, 15%);
+    --container-color: #FFF;
+    --first-color-light: hsl(45, 98%, 60%);
+    --form : hsl(45, 98%, 60%);
+  }
+  
+  /*=============== THEME ===============*/
+  /*========== Variables Dark theme ==========*/
+  /* =============MODE GELAP ++++++++*/
+  
+  body.dark-theme {
+    --first-color-light: hsl(45, 98%, 75%);
+    --title-color: hsl(45, 4%, 95%);
+    --text-color: hsl(45, 4%, 80%);
+    --body-color: hsl(45, 8%, 13%);
+    --container-color: hsl(45, 8%, 16%);
+    --scroll-bar-color: hsl(45, 4%, 32%);
+    --scroll-thumb-color: hsl(45, 4%, 24%);
+  
+    --form :#fff;
+  }
